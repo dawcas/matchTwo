@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+
+body {
+    background-color: #002C03;
+    max-height: 100%;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    width: 80%;
+}
+
+footer {
+    margin: 1.5em auto;
+    text-align: center;
+}
+
+footer button {
+    padding: 0.7em;
+    background-color: #61153F;
+    border: 1px solid #3C2D51;
+}
+
+footer button:active {
+    background-color: #3C2D51;
+    border: 1px solid #61153F;
+}
+
+.card {
+    flex: 1 25%;
+    position: relative;
+    margin: 1em;
+    width: 30vw;
+    height: 25vw;
+    background-color: #3D3D3D;
+    border-radius: 100%;
+}
+
+.card img {
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    margin: 0 auto;
+    max-width: 80%;
+    visibility: hidden;
+}
